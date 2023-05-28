@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SafeWeb</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    function exibirPopUp() {
+      alert("Entraremos em contato em breve");
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>SafeWeb</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="button">Home</a></li>
+        <li><a href="servicos.html" class="button">Serviços</a></li>
+        <li><a href="missao.html" class="button">Sobre a empresa</a></li>
+        <li><a href="mapa.html" class="button">Proprietários</a></li>
+        <li><a href="contato.html" class="button">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Formulário de Contato</h1>
+
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <input type="submit" value="Enviar" onclick="exibirPopUp()">
+    </form>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023 SafeWeb</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header {
+    background-color: #000080;
+    background-image: linear-gradient(to top, black -40%, #000080);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 70%;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  
+  footer {
+    background-color: #000080;
+    background-image: linear-gradient(to bottom, black -40%, #000080);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000080;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #89CFF0;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .title-header {
+    font-weight: bold;
+  }
+  /* Estilos específicos de cada página */
+  .introducao h2 {
+    color: #333;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .introducao p {
+    padding-left: 25%;
+    padding-bottom: 20px;
+    padding-right: 25%;
+    text-align: justify;
+  }
+
+  .missao {
+    flex-grow: 1;
+  }
+
+  .visao {
+    flex-grow: 1;
+}
+
+  .valores {
+    flex-grow: 1;
+  }
+  
+  .container {
+    padding: 0 25%;
+    padding-top: 80px;
+  }
+  
+  .item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .imagem {
+    width: 25%;
+    margin-right: 10px;
+  }
+
+  .mapa h1{
+    color: #000;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .mapa h2 {
+    color: #333;
+    text-align: center;
+  }
+
+  .mapa h3 {
+    color: #333;
+    text-align: center;
+  }
+
+  .mapa p {
+    padding-left: 25%;
+    padding-bottom: 20px;
+    padding-right: 25%;
+    text-align: center;
+  }
+  
+  .contato {
+    padding-top: 100px;
+  }
+
+  .contato h2 {
+    color: #333;
+    text-align: center;
+  }
+
+  .contato p {
+    padding-left: 25%;
+    padding-bottom: 20px;
+    padding-right: 25%;
+    text-align: center;
+  }
+
+  .img-index {
+    width: 810px;
+    height: 502.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
